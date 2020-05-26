@@ -1,2 +1,3 @@
 rootProject.name='SDKLibrary'
 include ':app', ':tool'
+include ':kotlintools'
