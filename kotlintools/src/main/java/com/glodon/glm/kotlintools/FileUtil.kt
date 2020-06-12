@@ -118,7 +118,7 @@ object FileUtil {
         return false
     }
 
-    fun createNewFile(dir: String?, fileName: String?): String? {
+    fun createNewFile(dir: String?, fileName: String?): String {
         // 文件目录
         val root = File(dir)
         if (!root.isDirectory || !root.exists()) {
