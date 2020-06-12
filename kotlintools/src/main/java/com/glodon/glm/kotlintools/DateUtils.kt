@@ -46,9 +46,9 @@ object DateUtils {
     fun getWeek(time: Long): String? {
         val cd = Calendar.getInstance()
         cd.time = Date(time)
-        val year = cd[Calendar.YEAR] //获取年份
-        val month = cd[Calendar.MONTH] //获取月份
-        val day = cd[Calendar.DAY_OF_MONTH] //获取日期
+//        val year = cd[Calendar.YEAR] //获取年份
+//        val month = cd[Calendar.MONTH] //获取月份
+//        val day = cd[Calendar.DAY_OF_MONTH] //获取日期
         val week = cd[Calendar.DAY_OF_WEEK] //获取星期
         val weekString: String
         weekString = when (week) {

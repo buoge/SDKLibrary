@@ -17,16 +17,6 @@ public class L {
     private static boolean isShowGlobal = true;
     private static String globalTag = "global_gate";
 
- /*   public static Handler getMessageHandler() {
-        return messageHandler;
-    }
-
-    public static void setMessageHandler(Handler mymessageHandler) {
-        messageHandler = mymessageHandler;
-    }
-
-    static Handler messageHandler = null;
-*/
 
     public static void v(String tag, String msg) {
         if (level <= VERBOSE) {
